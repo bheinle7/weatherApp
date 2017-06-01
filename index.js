@@ -57,7 +57,7 @@ $(document).ready(function() {
               break;
             case "rain":
               $("#icon").attr("class", "wi wi-sprinkle");
-              $("body").css("background-image", "url("+"http://i38.photobucket.com/albums/e141/bheinle7/rainyDay_zpsyxufjapo.jpeg"+")");
+              $("body").css("background-image", "url("+"http://i38.photobucket.com/albums/e141/bheinle7/rain-122691_1920_zpsabmzpn6t.jpg"+")");
               break;
             case "snow":
               $("#icon").attr("class", "wi wi-snow");
@@ -65,13 +65,14 @@ $(document).ready(function() {
               break;
             case "sleet":
               $("#icon").attr("class", "wi wi-sleet");
-              $("body").css("background-image", "url("+"http://i38.photobucket.com/albums/e141/bheinle7/rainyDay_zpsyxufjapo.jpeg"+")");
+              $("body").css("background-image", "url("+"http://i38.photobucket.com/albums/e141/bheinle7/rain-122691_1920_zpsabmzpn6t.jpg"+")");
               break;
             case "wind":
               $("#icon").attr("class", "wi wi-strong-wind");
               $("#icon").css("color", "black");
               $("body").css("color", "black");
-              $("body").css("background-image", "url("+"http://i38.photobucket.com/albums/e141/bheinle7/windy_zps1ro7flpo.jpg"+")");
+              $("a").css("color", "black");
+              $("body").css("background-image", "url("+"http://i38.photobucket.com/albums/e141/bheinle7/wind_zpsczeqcrdu.jpg"+")");
               break;
             case "fog":
               $("#icon").attr("class", "wi wi-fog");
