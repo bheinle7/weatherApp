@@ -9,41 +9,35 @@
 </head>
 
 <body>
-  <div class="container-fluid">
+  <div class="container">
     <div class="row justify-content-center">
-      <div class="col-sm-8 borders text-center">
-        <h1 id="cityState">User's City, State</h1>
-      </div>
+      <h1 id="cityState">User's City, State</h1>
     </div>
     <div class="row justify-content-center">
-      <div class="col-sm-4 borders text-center">
-        <div class="row justify-content-center">
-          <div class="col-sm-6 borders text-left">
-            <h5 id="hiT">#</h5>
-          </div>
-          <div class="col-sm-6 borders text-left">
-            <h5 id="loT">#</h5>
-          </div>
-        </div>
-        <h2 id="temp">Temperature</h2>
-      </div>
-      <div class="col-sm-4 borders text-center">
-        <icon id="icon1" width="128" height="128"></icon>
-        <div class="col-sm-12 borders text-center">
-          <h5 id="crntCond">Current Condition</h5>
-        </div>
-        <i class="wi wi-night-sleet"></i>
-      </div>
+      <h5 id="hiT">#</h5>
     </div>
     <div class="row justify-content-center">
-      <div class="col-sm-8 borders text-center">
-        <a href="https://darksky.net/poweredby/" target="_blank">
-          <h5>Powered by Dark Sky</h5>
-        </a>
+      <h5 id="loT">#</h5>
+    </div>
+    <div class="row justify-content-center">
+      <h2 id="temp">Temperature</h2>
+    </div>
+    <div class="row justify-content-center">
+      <h5 id="crntCond">Current Condition</h5>
+    </div>
+    <div class="row justify-content-center">
+      <i id="icon" style="color:white; font-size:2em;"></i>
+    </div>
+    <div class="row justify-content-center btn-row-marg">
+      <div class="btn-group">
+        <button id="degF" type="button" class="btn btn-primary">&#176;F</button>
+        <button id="degC" type="button" class="btn btn-default">&#176;C</button>
       </div>
+    </div>
+    <div class="row justify-content-center row-pad">
+      <a href="https://darksky.net/poweredby/" target="_blank">
+        <h5>Powered by Dark Sky</h5>
+      </a>
     </div>
   </div>
-  <script type="text/javascript" src="https://github.com/darkskyapp/skycons/blob/master/skycons.js"></script>
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script type="text/javascript" src="index.js" ></script>
 </body>

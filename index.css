@@ -1,12 +1,26 @@
-body{
+body {
   background-color: gray;
+  color: white;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1200px auto;
 }
-.borders{
+.default-img {
+  width: 100%;
+  max-width: 1200px;
+  min-height: 400px;
   border: 1px solid black;
 }
-canvas {
-  display: block;
-  float: left;
-  margin-left: 8px;
-  margin-top: 8px;
+a {
+  color: white;
+}
+.row-pad {
+  margin-top: 400px;
+}
+.icon-style {
+  font-size: 2em;
+  color: white;
+}
+.btn-row-marg {
+  margin-top: 10px;
 }
