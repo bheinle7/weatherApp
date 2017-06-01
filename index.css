@@ -1,0 +1,12 @@
+body{
+  background-color: gray;
+}
+.borders{
+  border: 1px solid black;
+}
+canvas {
+  display: block;
+  float: left;
+  margin-left: 8px;
+  margin-top: 8px;
+}
