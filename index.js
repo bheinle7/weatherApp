@@ -99,6 +99,8 @@ $(document).ready(function() {
         }
       });
     });
+  } else {
+    alert("No Location Service")
   }
   $("#degC").click(function(){
         $("#degF").attr("class","btn btn-default");

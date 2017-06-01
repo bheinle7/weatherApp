@@ -2,7 +2,6 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.css">
   <link rel="stylesheet" href="index.css">
-  <link rel="stylesheet" href="weather-icons.css">
   <title>
     Website to display weather in user's area
   </title>
@@ -28,16 +27,18 @@
     <div class="row justify-content-center">
       <i id="icon" style="color:white; font-size:2em;"></i>
     </div>
-    <div class="row justify-content-center btn-row-marg">
+    <div class="row justify-content-center row-marg">
       <div class="btn-group">
         <button id="degF" type="button" class="btn btn-primary">&#176;F</button>
         <button id="degC" type="button" class="btn btn-default">&#176;C</button>
       </div>
     </div>
-    <div class="row justify-content-center row-pad">
+    <div class="row justify-content-center row-marg">
       <a href="https://darksky.net/poweredby/" target="_blank">
         <h5>Powered by Dark Sky</h5>
       </a>
     </div>
   </div>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script type="text/javascript" src="index.js"></script>
 </body>
