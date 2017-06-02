@@ -66,11 +66,20 @@ $(document).ready(function() {
           var hrs = date.getHours();
           var min = date.getMinutes();
           if (hrs > 12) {
-            hrs -= 12;
-            $("#date").html(month +" "+ day + ", " + hrs + ":" + min + " PM")
-          } else {
-            $("#date").html(month +" "+ day + ", " + hrs + ":" + min + " AM")
-          }
+              hrs -= 12;
+              if (min < 10) {
+                $("#date").html(month +" "+ day + ", " + hrs + ":" + "0" + min + " PM")
+              } else {
+                $("#date").html(month +" "+ day + ", " + hrs + ":" + min + " PM")
+              }
+
+            } else {
+              if (min < 10) {
+                $("#date").html(month +" "+ day + ", " + hrs + ":" + "0" + min + " AM")
+              } else {
+                $("#date").html(month +" "+ day + ", " + hrs + ":" + min + " AM")
+              }
+            }
 
           //alert(min);
           var icon = weatherData.daily.data[0].icon;
