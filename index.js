@@ -89,7 +89,7 @@ $(document).ready(function() {
               $("body").css(
                 "background-image",
                 "url(" +
-                  "http://i38.photobucket.com/albums/e141/bheinle7/clearDay_zpsm1ukvbtm.jpeg" +
+                  "https://github.com/bheinle7/weatherApp/blob/master/img/clearDay.JPEG?raw=true" +
                   ")"
               );
               break;
@@ -98,7 +98,7 @@ $(document).ready(function() {
               $("body").css(
                 "background-image",
                 "url(" +
-                  "http://i38.photobucket.com/albums/e141/bheinle7/clearNight_zpshczgiraa.jpg" +
+                  "https://github.com/bheinle7/weatherApp/blob/master/img/clearNight.JPG?raw=true" +
                   ")"
               );
               break;
@@ -107,7 +107,7 @@ $(document).ready(function() {
               $("body").css(
                 "background-image",
                 "url(" +
-                  "http://i38.photobucket.com/albums/e141/bheinle7/rain-122691_1920_zpsabmzpn6t.jpg" +
+                  "https://github.com/bheinle7/weatherApp/blob/master/img/rain.JPG?raw=true" +
                   ")"
               );
               break;
@@ -116,7 +116,7 @@ $(document).ready(function() {
               $("body").css(
                 "background-image",
                 "url(" +
-                  "http://i38.photobucket.com/albums/e141/bheinle7/snow_zpsneddlu7w.jpg" +
+                  "https://github.com/bheinle7/weatherApp/blob/master/img/snow.JPG?raw=true" +
                   ")"
               );
               break;
@@ -125,7 +125,7 @@ $(document).ready(function() {
               $("body").css(
                 "background-image",
                 "url(" +
-                  "http://i38.photobucket.com/albums/e141/bheinle7/rain-122691_1920_zpsabmzpn6t.jpg" +
+                  "https://github.com/bheinle7/weatherApp/blob/master/img/rain.JPG?raw=true" +
                   ")"
               );
               break;
@@ -137,7 +137,7 @@ $(document).ready(function() {
               $("body").css(
                 "background-image",
                 "url(" +
-                  "http://i38.photobucket.com/albums/e141/bheinle7/wind_zpsczeqcrdu.jpg" +
+                  "https://github.com/bheinle7/weatherApp/blob/master/img/wind.JPGraw=true" +
                   ")"
               );
               break;
@@ -149,7 +149,7 @@ $(document).ready(function() {
               $("body").css(
                 "background-image",
                 "url(" +
-                  "http://i38.photobucket.com/albums/e141/bheinle7/foggyDay_zpsaj0cwn3l.jpeg" +
+                  "https://github.com/bheinle7/weatherApp/blob/master/img/foggyDay.JPEG?raw=true" +
                   ")"
               );
               break;
@@ -158,7 +158,7 @@ $(document).ready(function() {
               $("body").css(
                 "background-image",
                 "url(" +
-                  "http://i38.photobucket.com/albums/e141/bheinle7/cloudy_zps4ne7cp5a.jpeg" +
+                  "https://github.com/bheinle7/weatherApp/blob/master/img/cloudy.JPEG?raw=true" +
                   ")"
               );
               break;
@@ -170,7 +170,7 @@ $(document).ready(function() {
               $("body").css(
                 "background-image",
                 "url(" +
-                  "http://i38.photobucket.com/albums/e141/bheinle7/partlyCloudy_zpsuein9br9.jpeg" +
+                  "https://github.com/bheinle7/weatherApp/blob/master/img/partlyCloudy.JPEG?raw=true" +
                   ")"
               );
               break;
@@ -179,7 +179,7 @@ $(document).ready(function() {
               $("body").css(
                 "background-image",
                 "url(" +
-                  "http://i38.photobucket.com/albums/e141/bheinle7/partlyCloudyNight_zpsx7nw2kh1.jpg" +
+                  "https://github.com/bheinle7/weatherApp/blob/master/img/partlyCloudyNight.JPG" +
                   ")"
               );
               break;
