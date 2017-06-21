@@ -73,6 +73,13 @@ $(document).ready(function() {
                 $("#date").html(month +" "+ day + ", " + hrs + ":" + min + " PM")
               }
 
+            } else if (hrs == 12) {
+              if (min < 10) {
+                $("#date").html(month +" "+ day + ", " + hrs + ":" + "0" + min + " PM")
+              } else {
+                $("#date").html(month +" "+ day + ", " + hrs + ":" + min + " PM")
+              }
+
             } else {
               if (min < 10) {
                 $("#date").html(month +" "+ day + ", " + hrs + ":" + "0" + min + " AM")
